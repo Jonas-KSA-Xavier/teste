@@ -1,0 +1,45 @@
+.menu-container {
+    display: flex;
+    height: 100vh;
+    background-color: #737374; /* Cor de fundo para toda a página */
+  }
+  
+  .sidebar {
+    width: 60px; /* Largura da barra lateral */
+    background-color: #681516; /* Cor de fundo da barra lateral */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .sidebar-button {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #555; /* Cor de fundo dos botões */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #777; /* Cor ao passar o mouse */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #737374;
+  }
+  
+  .menu-message {
+    font-size: 24px;
+    color: black    ;
+    font-weight: bold;
+    text-align: center;
+  }
